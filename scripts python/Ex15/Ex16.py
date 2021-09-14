@@ -1,0 +1,5 @@
+age=int(input("Age \n"))
+stud=int(input("Anees d'etudes, -1 si pas de BAC \n"))
+cup=int(input("Celibataire 1 ou 0 \n"))
+kid=int(input("Nombre d'INFANTS \n"))
+car=int(input("Voiture 1 ou 0 \n"))
