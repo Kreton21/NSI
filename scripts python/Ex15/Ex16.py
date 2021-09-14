@@ -15,7 +15,7 @@ if kid >1:
     s+=1
 if car == True:
     s+=1
-if s >= 5:
+if s == 5:
     print("Client tres probable")
 elif s==4 or s==3:
     print("Client probable")
