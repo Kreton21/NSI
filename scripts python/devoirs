@@ -1,2 +1,5 @@
-Pour mardi 28: 25 et 26.1.2
-Pour mardi 05: 26.4
+Creeation d'un tableau de taille predefinie
+x <=== 0
+Pour i allant de 0 a taille tableau -1 faire:
+    x <--- x + t[i]
+Afficher x
