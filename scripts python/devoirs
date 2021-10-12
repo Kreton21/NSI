@@ -1,5 +1,6 @@
-Creeation d'un tableau de taille predefinie
-x <=== 0
-Pour i allant de 0 a taille tableau -1 faire:
-    x <--- x + t[i]
-Afficher x
+Soit t et y deux tableux de meme longueur
+u[] tableu de taille t-1
+Pour i allant de 0 a taille de u[]-1:
+    u[i] <=== t[i]+y[i]
+
+
