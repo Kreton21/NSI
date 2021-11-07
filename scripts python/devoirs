@@ -1,2 +1,6 @@
-Pour mardi 28: 25 et 26.1.2
-Pour mardi 05: 26.4
+Soit t et y deux tableux de meme longueur
+u[] tableu de taille t-1
+Pour i allant de 0 a taille de u[]-1:
+    u[i] <=== t[i]+y[i]
+
+
