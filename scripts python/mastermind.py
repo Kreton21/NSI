@@ -23,6 +23,7 @@ def startup():
     for i in range(len(A)):
         A[i]=rand.randrange(1,len(A))
     return(A)
+
 def tryy():
     B=[0]*a
     c=input("Try")

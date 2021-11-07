@@ -16,4 +16,9 @@ def exemple():      = Ca marche
     global a
     a+=1
 
-En effet une variable globale peut etre lue sans etre rappele mais pas modifee.
+En effet une variable globale peut etre lue sans etre rappele mais pas modifee. 
+Une heure plus tard tous les bugs on ete corrigees et le jeu est 100% fonctionel mais sans avoir lu la consigne on se rend compte que l'on as respecte aucune des consignes et le jeu n'est pas compatible avec les fonctions du poly. On doit alors tout refaire a 0.
+
+
+
+
