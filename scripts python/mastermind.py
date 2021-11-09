@@ -11,6 +11,10 @@ import random as rand
 def startup():
     global a
     global b
+    print("PS: La combinaison chiosie par la machine est affiche car le logiciel est en mode developpement")
+    print("1 = 4 chiffres, 4 couleurs et 20 essais")
+    print("2 = 6 chiffres, 6 couleurs et 10 essais")
+    print("3 = Personalise")
     a=int(input("Entrer la difficulte du jeu:\n"))
     if a == 1:
         a=4
@@ -18,7 +22,7 @@ def startup():
     elif a == 2:
         a=6
         b=10
-    else: a=int(input());b=int(input())
+    else: a=int(input("Entrez la taille de combinaison \n"));b=int(input("Entrez le nombre d'essais \n"))
     A=[0]*a
     for i in range(len(A)):
         A[i]=rand.randrange(1,len(A))
@@ -26,7 +30,8 @@ def startup():
 
 def tryy():
     B=[0]*a
-    c=input("Try")
+    print("Entrez une combinaison de",a,"chiffres \n")
+    c=input()
     for i in range(len(c)):
         B[i]=int(c[i])
     return(B)
@@ -49,9 +54,9 @@ def game(A,B):
                     D[j]=-1
                     break
 
-        print(A)
-        print(B)
-        print(b)
+        print(A,"Combinaison choisie par la machine a enlever a la version finale")
+        print(B,"Votre combinaison")
+        print(b,"nombre d'essai restants")
         print(C)
         B=tryy()
         b=b-1
@@ -60,3 +65,4 @@ def game(A,B):
 
 
 game(startup(),tryy())
+print("Bravo")
