@@ -21,4 +21,4 @@ Une heure plus tard tous les bugs on ete corrigees et le jeu est 100% fonctionel
 
 
 
-
+Erreurs indentations fonction posistion () qui renvoie -2 tt le temps (Return a linterieur de la fonction)
