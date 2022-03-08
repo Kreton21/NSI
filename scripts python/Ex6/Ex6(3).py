@@ -1,7 +1,0 @@
-print("Formidable Area Calculator")
-print("F.A.C Alexandru™")
-print("Enter a:")
-a=int(input())
-print("Enter b:")
-b=int(input())
-print("Area =",a*b)
