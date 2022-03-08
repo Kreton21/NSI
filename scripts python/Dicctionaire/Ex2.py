@@ -31,4 +31,14 @@ def plusfreq2(T,k):
 n=sorted(plusfreq2(text,7).items(), key=lambda item: item[1])
 m=sorted(plusfreq(texte).items(), key=lambda item: item[1])
 # print (m)
-print(n)
+# print(n)
+def compT(T,U):
+    t=occurence(T)
+    u=occurence(U)
+    if t==u:
+        return True
+    else:return False
+test1=[1,2,3,4,5,1]
+test2=[1,1,5,4,3,2]
+print(compT(test1,test2))
+
