@@ -1,10 +1,11 @@
 import csv
 from collections import OrderedDict
 import json
-f=open("/home/kreton/Documents/code/NSI/scripts python/CSV/naissance.csv")
-d=open("/home/kreton/Documents/code/NSI/scripts python/CSV/notes.csv")
+f=open("/home/kreton/Documents/coding/NSI/scripts python/CSV/notes.csv")
+d=open("/home/kreton/Documents/coding/NSI/scripts python/CSV/notes2.csv")
 table=list(csv.DictReader(d,delimiter=","))
-table=list(csv.DictReader(f,delimiter=","))
+table2=list(csv.DictReader(f,delimiter=","))
+tables=table+table2
 
-
-print(table)
+anglais=[e["Nom"] for e in tables if int(e["Anglais"])>8]
+print(anglais)
