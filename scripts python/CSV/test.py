@@ -1,7 +1,6 @@
 import csv
-from collections import OrderedDict
-import json
-f=open("/home/kreton/Documents/code/NSI/scripts python/CSV/notes.csv",encoding="utf8")
+
+f=open("/home/kreton/Documents/coding/NSI/scripts python/CSV/notes.csv",encoding="utf8")
 table=list(csv.DictReader(f,delimiter=","))
 print(table)
 
