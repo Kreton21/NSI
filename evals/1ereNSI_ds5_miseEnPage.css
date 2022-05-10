@@ -1,0 +1,23 @@
+p {color: white;}
+
+h3 { color: DeepPink;
+		}
+
+table  {width:30em;
+    height:3em ;
+    text-align:center;
+    vertical-align:center;
+    border:1pt solid white;
+    }
+	
+#teteListe { color : DarkGray;
+	font: weight 11px;;
+	
+	}
+	
+#favori {color:yellow;
+		font-style:italic;
+		}
+
+
+
